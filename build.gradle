@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+group = 'com.javierdearcos.challenge.java8'
+version = '1.0.0'
+description = 'episode1'
+java.sourceCompatibility = JavaVersion.VERSION_1_8
+
+application {
+    mainClass = 'com.javierdearcos.challenge.java8.episode1.BattleOfTheOuterRim'
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'org.mockito:mockito-core:3.6.28'
+}
+
